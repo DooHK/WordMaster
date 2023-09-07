@@ -58,5 +58,6 @@ public class WordManager {
                 }
             }
         }
+        System.out.print("\n프로그램 종료! 다음에 만나요~");
     }
 }
