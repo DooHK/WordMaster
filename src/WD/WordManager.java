@@ -45,13 +45,15 @@ public class WordManager {
                     break;
                 }
                 case 4 ->{//단어 추가
-                    wordCrud.addWord();
+                    wordCrud.addItem();
                     break;
                 }
                 case 5 ->{//단어 수정
+                    wordCrud.updateItem();
                     break;
                 }
                 case 6 ->{//단어 삭제
+                    wordCrud.deleteItem();
                     break;
                 }
                 case 7 ->{//파일 저장
