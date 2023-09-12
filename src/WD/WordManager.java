@@ -29,6 +29,7 @@ public class WordManager {
 
     }
     public void start(){
+        wordCrud.loadFile();
         while(true) {
             int menu = selectMenu();
 
@@ -39,9 +40,11 @@ public class WordManager {
                     break;
                 }
                 case 2 ->{//수준별 단어 보기
+                    wordCrud.searchLevel();
                     break;
                 }
                 case 3 ->{//단어 검색
+                    wordCrud.searchWord();
                     break;
                 }
                 case 4 ->{//단어 추가
@@ -57,6 +60,7 @@ public class WordManager {
                     break;
                 }
                 case 7 ->{//파일 저장
+                    wordCrud.saveFile();
                     break;
                 }
             }
