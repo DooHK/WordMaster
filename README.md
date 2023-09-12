@@ -1,4 +1,6 @@
 # WordMaster
+## Interface
+![image](https://github.com/DooHK/WordMaster/assets/126567268/de54b764-4159-434d-99d8-c5b3d7c85507)
 
 ## 단어 추가
 ![Wordmaster1](https://github.com/DooHK/WordMaster/assets/126567268/da5d8f99-4169-4a7f-8dfd-ca89355add30)
